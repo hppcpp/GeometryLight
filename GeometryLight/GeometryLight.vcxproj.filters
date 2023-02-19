@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\class">
+      <UniqueIdentifier>{755366ca-55f1-4d87-8ea2-dcbf04a44e4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CAP">
+      <UniqueIdentifier>{7c81075e-9408-4053-b9cb-bf2441c59f7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CAP\GLSL">
+      <UniqueIdentifier>{0005df32-56ee-4d60-ac05-38cbff1d5010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\struct">
+      <UniqueIdentifier>{20632c68-a440-4b8c-ae4c-fe22b7eb4843}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\function">
+      <UniqueIdentifier>{fd878668-97f9-4df6-bf09-be318ddd18e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OpenSource">
+      <UniqueIdentifier>{ca6abb7a-520b-4d7c-adf9-24ab568cc113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OpenSource\imgui">
+      <UniqueIdentifier>{87d0ead5-e7f9-47d4-a7a6-d23525f5e1c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\class">
+      <UniqueIdentifier>{5dc47f59-17ad-4018-a55e-a7dd81b55808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CAP">
+      <UniqueIdentifier>{8336bc92-544c-420b-bcfe-aa119fd55680}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CAP\GLSL">
+      <UniqueIdentifier>{a1c167c0-1a28-4054-b440-6fea55fdf1a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\function">
+      <UniqueIdentifier>{3cc88466-4767-4cdd-939b-8a7e739eff8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OpenSource">
+      <UniqueIdentifier>{fe5f739c-1a4b-494f-922d-065c953b6349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OpenSource\stb">
+      <UniqueIdentifier>{036ab757-6840-4083-8db1-ba820d901955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OpenSource\imgui">
+      <UniqueIdentifier>{c7f80cdc-697e-4f5b-b615-4b15d6ff3da3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\class\singleton">
+      <UniqueIdentifier>{b04d9d3f-31c1-413c-8942-8d7ec5a72abf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\class\singleton">
+      <UniqueIdentifier>{0b507171-dd3a-4f20-9371-3a2d92c549af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\enum">
+      <UniqueIdentifier>{b35a50dd-f799-4945-bef1-74fe48a83b17}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\header\functor.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\initialization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\static.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\stem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\class\Camera.h">
+      <Filter>Header Files\class</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\class\Constv.h">
+      <Filter>Header Files\class</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\class\Movement.h">
+      <Filter>Header Files\class</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\class\Transformation.h">
+      <Filter>Header Files\class</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\class\Player.h">
+      <Filter>Header Files\class</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\OpenSource\imgui\imconfig.h">
+      <Filter>Header Files\OpenSource\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\OpenSource\imgui\imgui.h">
+      <Filter>Header Files\OpenSource\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\OpenSource\imgui\imgui_internal.h">
+      <Filter>Header Files\OpenSource\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\OpenSource\imgui\imstb_rectpack.h">
+      <Filter>Header Files\OpenSource\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\OpenSource\imgui\imstb_textedit.h">
+      <Filter>Header Files\OpenSource\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\OpenSource\imgui\imstb_truetype.h">
+      <Filter>Header Files\OpenSource\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\function\universal.h">
+      <Filter>Header Files\function</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\OpenSource\imgui\imgui_impl_glfw.h">
+      <Filter>Header Files\OpenSource\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\OpenSource\imgui\imgui_impl_opengl3.h">
+      <Filter>Header Files\OpenSource\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\OpenSource\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>Header Files\OpenSource\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\struct\DirLight.h">
+      <Filter>Header Files\struct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\struct\Material.h">
+      <Filter>Header Files\struct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\struct\PointLight.h">
+      <Filter>Header Files\struct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\struct\Reflection.h">
+      <Filter>Header Files\struct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\struct\SpotLight.h">
+      <Filter>Header Files\struct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\struct\Texture.h">
+      <Filter>Header Files\struct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\struct\Vertex.h">
+      <Filter>Header Files\struct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\CAP\GLSL\shader.hpp">
+      <Filter>Header Files\CAP\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\CAP\file.h">
+      <Filter>Header Files\CAP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\CAP\GLT.hpp">
+      <Filter>Header Files\CAP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\CAP\win.h">
+      <Filter>Header Files\CAP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\class\Line.h">
+      <Filter>Header Files\class</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\class\Ray.h">
+      <Filter>Header Files\class</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\class\BulletTrajectory.h">
+      <Filter>Header Files\class</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\class\singleton\ImGuiSetting.h">
+      <Filter>Header Files\class\singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\class\singleton\Setting.h">
+      <Filter>Header Files\class\singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\class\singleton\Temporary.h">
+      <Filter>Header Files\class\singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\enum\GAME_MODE.h">
+      <Filter>Header Files\enum</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\enum\SHADING.h">
+      <Filter>Header Files\enum</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\enum\VISION.h">
+      <Filter>Header Files\enum</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\class\Plane.h">
+      <Filter>Header Files\class</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\class\Geometry.h">
+      <Filter>Header Files\class</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\class\ShaderProgram.h">
+      <Filter>Header Files\class</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\class\Cuboid.h">
+      <Filter>Header Files\class</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\function\print.h">
+      <Filter>Header Files\function</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\class\singleton\Frame.h">
+      <Filter>Header Files\class\singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\class\singleton\MSAA.h">
+      <Filter>Header Files\class\singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\class\singleton\Global.h">
+      <Filter>Header Files\class\singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\class\FrameVertex.h">
+      <Filter>Header Files\class</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\class\Orthogon.h">
+      <Filter>Header Files\class</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\CAP\file.cpp">
+      <Filter>Source Files\CAP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\CAP\GLT.cpp">
+      <Filter>Source Files\CAP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\CAP\win.cpp">
+      <Filter>Source Files\CAP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\CAP\GLSL\shader.cpp">
+      <Filter>Source Files\CAP\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\function\print.cpp">
+      <Filter>Source Files\function</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\function\universal.cpp">
+      <Filter>Source Files\function</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\class\Camera.cpp">
+      <Filter>Source Files\class</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\class\Movement.cpp">
+      <Filter>Source Files\class</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\class\Transformation.cpp">
+      <Filter>Source Files\class</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\class\Player.cpp">
+      <Filter>Source Files\class</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\class\Line.cpp">
+      <Filter>Source Files\class</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\class\ShaderProgram.cpp">
+      <Filter>Source Files\class</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\OpenSource\stb\stb.cpp">
+      <Filter>Source Files\OpenSource\stb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\header\OpenSource\imgui\imgui.cpp">
+      <Filter>Source Files\OpenSource\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\header\OpenSource\imgui\imgui_draw.cpp">
+      <Filter>Source Files\OpenSource\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\header\OpenSource\imgui\imgui_tables.cpp">
+      <Filter>Source Files\OpenSource\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\header\OpenSource\imgui\imgui_widgets.cpp">
+      <Filter>Source Files\OpenSource\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\initialization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\stem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\header\OpenSource\imgui\imgui_impl_glfw.cpp">
+      <Filter>Source Files\OpenSource\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\header\OpenSource\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Source Files\OpenSource\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\class\Ray.cpp">
+      <Filter>Source Files\class</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\class\BulletTrajectory.cpp">
+      <Filter>Source Files\class</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\class\singleton\Setting.cpp">
+      <Filter>Source Files\class\singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\class\singleton\Temporary.cpp">
+      <Filter>Source Files\class\singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\class\Plane.cpp">
+      <Filter>Source Files\class</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\class\singleton\ImGuiSetting.cpp">
+      <Filter>Source Files\class\singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\GeometryLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\class\Cuboid.cpp">
+      <Filter>Source Files\class</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\class\Geometry.cpp">
+      <Filter>Source Files\class</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\class\singleton\Frame.cpp">
+      <Filter>Source Files\class\singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\class\singleton\MSAA.cpp">
+      <Filter>Source Files\class\singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\class\singleton\Global.cpp">
+      <Filter>Source Files\class\singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\class\FrameVertex.cpp">
+      <Filter>Source Files\class</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\class\Orthogon.cpp">
+      <Filter>Source Files\class</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
